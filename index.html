@@ -3,88 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="Резюме, cv, Влада">
-    <meta name="description" content="Резюме на frontend-developers">
+    <meta name="keaywords" content="Резюме, cv, Влада">
+    <meta name="description" content="Резюме на frontend-devolopers">
     <title>Резюме</title>
+    <link rel="stylesheet" href="css_for_index.css">
 </head>
 <body>
-    <img src="i.jpg" width="300">
-    <br>
-    <h1>Влад</h1>
-    <p>Frontend-developers, пишу сайты используя <strong><em>HTML, CSS, JavaScript</em></strong>.
-        <br>
-        Мечаю купить спортивную машину.
-    </p>
+    <div class="container">
 
-    <h3><strong>Список социальных сетей:</strong></h3>
-
-    <a href="https://vk.com/vozer98" target="_blank">ВКонтакте</a>
-    |
-    <a href="https://www.youtube.com/channel/UCroyoAs7tHSpsFVgVpO4kOQ" target="_blank">YouTube</a>
-    
-    <h1>
-        Мои хобби:
-    </h1>
-
-    <ul>
-        <li>Путешествие</li>
-        <li>Заниматься спортом</li>
-        <li>Видеоигры</li>
-        <li>Кататьcя на машинах</li>
-    </ul>
-
-    <h2>Опыт работы:</h2>
-    
-    <table>
-        <thead>
-            <tr>
-                <th>Название работы</th>
-                <th>Должность</th>
-                <th>Периоды работы</th>
-            </tr>
-        </thead>
-        <tbody>   
-            <tr>
-                <td>ООО "Скарлет"</td>
-                <td>Продавец</td>
-                <td>2016 - 2019</td>
-            </tr>
-        
-            <tr>
-                <td>ООО "МТС"</td>
-                <td>Оператор входящих звонков</td>
-                <td>2019 - 2020</td>
-            </tr>
-
-            <tr>
-                <td>Smart-tech</td>
-                <td>Системный администратор</td>
-                <td>2020 - по н. вр.</td>
-            </tr>
-        </tbody>            
-    </table>
-
-    <h2>Связаться со мной</h2>
-
-    <form action="/">
-        <div>
-            <label for="text">Ваше имя:</label>
-            <input type="text" id="text" placeholder="Введите имя">
-        </div>
-
-        <div>
-            <label for="email">Ваше email:</label>
-            <input type="text" id="email" placeholder="Введите email">
-        </div>
-
-        <div>
-            <label for="message">Ваше сообщение:</label>
+        <div class="info">
+            <img class="face" src="i.jpg">
+            
             <br>
-            <textarea id="message" cols="50" rows="10" placeholder="Введите сообщение..." ></textarea>
+
+          <div class="box-text">
+
+                <div class="info-text">
+                    <h1>Влад Озер</h1>
+
+                    <p>Frontend-devolopers, пишу сайты используя <strong><em>HTML, CSS, JavaScript</em></strong> .
+                    
+                        <br>
+                        
+                        Мечаю купить спортивную машину.
+
+                    </p>
+
+                    <h3><strong>Список социальных сетей:</strong></h3>
+                    
+                    <a href="https://vk.com/vozer98" target="_blank">ВКонтакте</a>
+                    |
+                    <a href="https://www.youtube.com/channel/UCroyoAs7tHSpsFVgVpO4kOQ" target="_blank">YouTube</a>
+                </div>
+            </div>
+          </div>
+
+        <div class="card bg-yellow">
+        <h2>Мои хобби</h2>
+
+        <ul class="list">
+            <li>Путешествие</li>
+            <li>Заниматься спортом</li>
+            <li>Видеоигры</li>
+            <li>Кататья на машинах</li>
+        </ul>
         </div>
 
-        <input type="submit" value="Отправить форму">
+        <div class="card bg-red">
+        <h2>Опыт работы</h2>
+        
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Название работы</th>
+                    <th>Должность</th>
+                    <th>Периоды работы</th>
+                </tr>
+            </thead>
+            <tbody>   
+                <tr>
+                    <td>ООО "Скарлет"</td>
+                    <td>Продавец</td>
+                    <td>2016 - 2019</td>
+                </tr>
+            
+                <tr>
+                    <td>ООО "МТС"</td>
+                    <td>Оператор входящих звонков</td>
+                    <td>2019 - 2020</td>
+                </tr>
 
-    </form>
+                <tr>
+                    <td>Smart-tech</td>
+                    <td>Системный администратор</td>
+                    <td>2020 - по н. вр.</td>
+                </tr>
+            </tbody>            
+        </table>
+        </div>
+        
+        <div class="card bg-green">
+        <h2>Мои курсы</h2>
+
+        <ul class="link-list">
+            <li>Профессия джуниор frontend-devolopers</li>
+            <li>Курс по HTML, css</li>
+        </ul>
+        </div>
+
+        <h2>Связаться со мной</h2>
+
+        <form action="/">
+            <div>
+                <label for="text">Ваше имя:</label>
+                <input type="text" id="text" placeholder="Введите имя">
+            </div>
+
+            <div>
+                <label for="email">Ваше email:</label>
+                <input type="text" id="email" placeholder="Введите email">
+            </div>
+
+            <div>
+                <label for="message">Ваше сообщение:</label>
+                <br>
+                <textarea id="message" cols="50" rows="10" placeholder="Введите сообщение..." ></textarea>
+            </div>
+
+            <input  class="btn" type="submit" value="Отправить!" >
+        </form>
+    </div>   
 </body>
 </html>

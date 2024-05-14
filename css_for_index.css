@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+    font-family: 'World', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    color: #0F141E;
+    background: #F1F1F1;
+    
+}
+.info {
+    margin-bottom: 15px;
+}
+.info-text p {
+    font-style: italic;
+    font-weight: normal;
+    color: #86898f;
+    margin: 0px;
+    
+}
+.card {
+    border-radius: 20px;
+}
+.bg-yellow {
+    background: #fff9dc;
+    margin-bottom: 15px;
+}
+.bg-red {
+    background: #ffe5e5;
+    margin-bottom: 15px;
+}
+.bg-green {
+    background: #e5ffe7;
+    margin-bottom: 15px;
+}
+.container{
+    max-width: 800px;
+    margin: auto;
+    border-left: 10px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    padding: 35px;
+}
+.bg-red {
+    padding: 15px;
+}
+.bg-yellow {
+    padding: 15px;
+    list-style: none;
+}
+.bg-green {
+    padding: 15px;
+}
+.face {
+    width: 300px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.50);
+    border-radius: 15px;
+}
+.btn {
+    margin:auto;
+    padding: 10px 40px;
+    background: #0F141E;
+    color: white;
+    font-family: initial;
+    cursor: pointer;
+}
+.btn:hover {
+    background: goldenrod;
+}
+.btn:active {
+    color: blue;
+}
+a:visited {
+    color: red;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:active {
+    color: blue;
+    text-decoration: underline;
+}
+.list {
+    margin: 10px;
+    padding: 0px 20px;
+    list-style: none;
+}
+.list li {
+    color: #981e1e;
+    margin-bottom: 10px;
+}
+.table td:nth-child(odd) {
+    background: #e4edf7;
+}
+.table td:nth-child(even) {
+    background: #cafda0;
+}
+.link-list {
+    margin: 10px;
+    padding: 0px;
+    list-style: none;
+}
+.link-list li {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+.box-text {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.box-text {
+    display: block;
+    margin: auto
+}
+.info {
+    display: inline-flex;
+    box-sizing: border-box;
+}
